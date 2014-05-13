@@ -10,13 +10,15 @@ function look_my_projects(){
 
     while ($row = mysql_fetch_array($result)){
         print "<div class='post format-standard box'>";
-        print "<h2 class='title'><a href='post.html'>".$row['name']."</a></h2>";
-        print "<p>".$row['shorttext']."</p>";
+        print "<form name='form".$row['id']."' action='post.php' method='post'><h2 class='title'>";
+        print "<a href='#' onclick='document.forms.form".$row['id'].".submit(); return false;'>".$row['name'];
+        print "</a></h2><p>".$row['shorttext']."</p>";
         print "<div class='details'>";
-        print "<span class='icon-standard'><a href='#'>".$row['date']."</a></span>";
+        print "<input type='text' name='id' value='".$row['id']."' style='display: none'>";
+        print "<span class='icon-standard'><a href='#'>".$row['date']." </a></span>";
         print "<span class='delete'><a href='#'>Видалити</a></span>";
         print "<span class='edit'><a href='#'>Редагувати</a></span>";
         print "<span class='money'><a href='#' class='moneyThis'>".$row['money']."</a></span>";
-        print "</div></div>";
+        print "</div></form></div>";
     }
 }

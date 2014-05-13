@@ -13,7 +13,7 @@ function menu()
 				<ul id="tiny">
 					<li class="active"><a href="index.php">Проекти</a>
 						<ul>
-							<li><a href="post.html">Останні проекти</a></li>
+							<li><a href="post.php">Останні проекти</a></li>
 						</ul>
 					</li>
 					<li><a href="#">FAQ</a>
@@ -41,7 +41,7 @@ HERE;
 				<ul id="tiny">
 					<li class="active"><a href="index.php">Проекти</a>
 						<ul>
-							<li><a href="post.html">Останні проекти</a></li>
+							<li><a href="post.php">Останні проекти</a></li>
 						</ul>
 					</li>
 					<li><a href="#">FAQ</a>
