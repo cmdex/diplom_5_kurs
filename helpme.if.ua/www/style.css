@@ -614,7 +614,9 @@ img {
 }
 iframe {
     display: block;
+    margin: 0 auto;
     pointer-events: auto;
+    width: 500px;
 }
 .frame:before {
     content: '';

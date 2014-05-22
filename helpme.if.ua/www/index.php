@@ -1,11 +1,14 @@
 <?php
 session_start();
+
+include ("php/print_head.php");
+include("php/menu.php");
+include("php/print_projects.php");
 ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
     <?php
-    include ("php/print_head.php");
     print_head();
     ?>
 </head>
@@ -24,7 +27,6 @@ session_start();
         <!-- End Logo -->
         <!-- Begin Menu -->
         <?php
-        include("php/menu.php");
         menu();
         ?>
         <!-- End Menu -->
@@ -42,7 +44,6 @@ session_start();
         <div class="blog-grid">
             <!-- Begin Image Format -->
             <?php
-            include("php/print_projects.php");
             print_projects();
             ?>
             <!-- End Blog -->
@@ -86,7 +87,7 @@ session_start();
         </div>
         <!-- #first .widget-area -->
         <!-- #second .widget-area -->
-        <!-- #third .widget-area -->
+        <!-- #third .widget-area --
         <div id="fourth" class="widget-area">
             <div class="widget">
                 <h3 class="widget-title">Flickr</h3>

@@ -83,7 +83,7 @@ session_start();
                 </ul>
             </div>
         </div>
-        <!-- #first .widget-area -->
+        <!-- #first .widget-area --
 
         <div id="second" class="widget-area">
             <div id="twitter-2" class="widget widget_twitter">
@@ -95,7 +95,7 @@ session_start();
                 </div>
             </div>
         </div>
-        <!-- #second .widget-area -->
+        <!-- #second .widget-area --
 
         <div id="third" class="widget-area">
             <div id="example-widget-3" class="widget example">
@@ -132,7 +132,7 @@ session_start();
 
             </div>
         </div>
-        <!-- #third .widget-area -->
+        <!-- #third .widget-area --
 
         <div id="fourth" class="widget-area">
             <div class="widget">

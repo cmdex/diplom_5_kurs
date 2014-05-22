@@ -11,11 +11,7 @@ function menu()
             <div id="menu-wrapper">
 			<div id="menu" class="menu">
 				<ul id="tiny">
-					<li class="active"><a href="index.php">Проекти</a>
-						<ul>
-							<li><a href="post.php">Останні проекти</a></li>
-						</ul>
-					</li>
+					<li class="active"><a href="index.php">Проекти</a></li>
 					<li><a href="#">FAQ</a>
 						<ul>
 							<li><a href="about.html">Про сервіс</a></li>
@@ -39,11 +35,7 @@ HERE;
             <div id="menu-wrapper">
 			<div id="menu" class="menu">
 				<ul id="tiny">
-					<li class="active"><a href="index.php">Проекти</a>
-						<ul>
-							<li><a href="post.php">Останні проекти</a></li>
-						</ul>
-					</li>
+					<li class="active"><a href="index.php">Проекти</a></li>
 					<li><a href="#">FAQ</a>
 						<ul>
 							<li><a href="about.html">Про сервіс</a></li>
@@ -56,7 +48,7 @@ HERE;
             print <<<HERE
                 <ul>
 							<li><a href="add-post.php">Додати проект</a></li>
-                            <li><a href="add-advertising.html">Додати рекламу</a></li>
+                            <li><a href="add-advertising.php">Додати рекламу</a></li>
 							<li><a href="all-post.php">Переглянути мої проекти</a></li>
 HERE;
         } elseif ($permission == "user") {
